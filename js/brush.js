@@ -1,5 +1,6 @@
 document.addEventListener('load', () => {
     const board = document.querySelector("#board")
+    document.querySelector('img').src = "./src/ref.png"
 })
 const brush = board.getContext('2d')
 let brushColor = "#d40000"

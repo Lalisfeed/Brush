@@ -6,23 +6,27 @@
 }
 
 body {
-    background: #fff;
+    background: #1a1a1a;
 }
 
-
+#board {
+    background: #fbfbfb;
+}
 .colors {
-    width: 250px;
+    width: 300px;
     height: 52px;
-    border: 2px solid #adadad;
+    border: 2px solid #f1f1f1;
+    background: #fff;
     border-radius: 33px;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     z-index: 100;
+    margin-top: 8px;
+    position: inherit;
 }
 
-.btn {
+.btn, img {
     width: 30px;
     height: 30px;
     border-radius: 30px;
