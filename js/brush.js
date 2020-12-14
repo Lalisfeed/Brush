@@ -47,3 +47,6 @@ function Sketch(e) {
 board.addEventListener('mousedown', StartLocation)
 board.addEventListener('mouseup', EndLocation)
 board.addEventListener('mousemove', Sketch)
+board.addEventListener('touchstart', StartLocation)
+board.addEventListener('touchend', EndLocation)
+board.addEventListener('touchmove', Sketch)
