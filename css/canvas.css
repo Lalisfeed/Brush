@@ -54,3 +54,7 @@ body {
 .btn:nth-child(5) {
     background-color: #f86409;
 }
+
+.btn:nth-child(6) {
+    background-color: #fbfbfb;
+}
