@@ -11,6 +11,7 @@ body {
 
 #board {
     background: #fbfbfb;
+    cursor: crosshair;
 }
 .colors {
     width: 300px;
