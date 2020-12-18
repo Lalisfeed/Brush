@@ -1,4 +1,4 @@
-<h1 align="center">Brushit</h1>
+<h1 align="center">Brush</h1>
 
 <h3 align="center">A Web Page for Drawings using a Mouse</h3>
 
