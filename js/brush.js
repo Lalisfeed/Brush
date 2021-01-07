@@ -45,7 +45,7 @@ function Sketch(e) {
 
 let out = {x:0, y:0};
 
-function painting(e) {
+function paint(e) {
     painting = true;
     brush.lineWidth = 10;
     brush.lineCap = "round";
@@ -64,6 +64,6 @@ function painting(e) {
 board.addEventListener('mousedown', StartLocation)
 board.addEventListener('mouseup', EndLocation)
 board.addEventListener('mousemove', Sketch)
-board.addEventListener('touchstart', painting)
-board.addEventListener('touchmove', painting)
+board.addEventListener('touchstart', paint)
+board.addEventListener('touchmove', paint)
 board.addEventListener('touchend', EndLocation)
